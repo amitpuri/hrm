@@ -232,13 +232,17 @@ $RECYCLE.BIN/
 
 
 # -------------------------
-# commenting out chroma files
+# Chroma database files - selectively ignore
 # -------------------------
-# Chroma database files (keep structure but ignore data)
-#chroma/*.bin
-#chroma/*.pickle
-#chroma/chroma.sqlite3
-#chroma/parents.jsonl
+# Ignore all Chroma files by default
+chroma/*.bin
+chroma/*.pickle
+chroma/chroma.sqlite3
+chroma/parents.jsonl
+
+# But allow specific Chroma collections if needed
+!chroma/2f4a9756-cc3f-4c8a-b1e6-7942bfca0ea9/
+!chroma/454bba7a-c2bf-41b4-a01d-4ac321ba051e/
 
 
 # PDF processing temporary files
