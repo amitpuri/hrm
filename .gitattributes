@@ -1,0 +1,2 @@
+chroma/**/*.bin filter=lfs diff=lfs merge=lfs -text
+chroma/**/*.pickle filter=lfs diff=lfs merge=lfs -text
