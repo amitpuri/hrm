@@ -235,10 +235,10 @@ $RECYCLE.BIN/
 # Chroma database files - selectively ignore
 # -------------------------
 # Ignore all Chroma files by default
-chroma/*.bin
-chroma/*.pickle
-chroma/chroma.sqlite3
-chroma/parents.jsonl
+#chroma/*.bin
+#chroma/*.pickle
+#chroma/chroma.sqlite3
+#chroma/parents.jsonl
 
 # But allow specific Chroma collections if needed
 !chroma/2f4a9756-cc3f-4c8a-b1e6-7942bfca0ea9/
