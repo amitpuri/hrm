@@ -145,8 +145,8 @@ The system implements a sophisticated two-stage retrieval approach:
 
 ## License
 
-[Add your license information here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-[Add contact information here]
+For questions, support, or contributions, please contact: openagi.news
